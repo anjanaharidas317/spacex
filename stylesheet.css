@@ -1,0 +1,276 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    background-color: black; 
+
+}
+
+/* ---first part--- */
+
+.image-container1{
+    position: relative;
+    margin: 0;
+}
+.image1{
+    width:100%;
+    margin: 0;
+
+}
+.headerfile{
+    color :white;    
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: baseline;
+}
+
+.header1{
+    width: 15%;
+    top: 40px;
+    margin-left: 60px;
+    margin-right: -90px;
+
+}
+
+.header2 ul{
+    margin-left:-60px;
+
+    list-style: none;
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 90px;
+    cursor: pointer;
+    transition: 2s;
+
+    
+}
+.header2 li:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.header2 li{
+    margin-right: 20px;
+}
+
+.header3{
+    display: flex;
+}
+
+.header3 p{
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+
+.firstcaption{
+    position: absolute;
+    z-index: 5;
+    bottom: 143px;
+    left: 112px;
+    font-family: sans-serif;
+    font-size: 19px;
+    color: white;
+    line-height: 50px;
+
+}
+.firstcaption h1{
+    font-size: 41px;
+}
+
+.firstcaption button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 40%;
+    height: 50px;
+}
+
+/* ---second part--- */
+
+.image-container2{
+    position: relative;
+    /* border-top: none; */
+    margin: 0px;
+
+
+}
+.image2{
+    width: 100%;
+    margin: 0px;
+
+}
+
+.secondcaption{
+    position: absolute;
+    z-index: 5;
+    bottom: 155px;
+    left: 130px;
+    font-family: sans-serif;
+    font-size: 19px;
+    color: white;
+    line-height: 50px;
+}
+.secondcaption button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 40%;
+    height: 50px;
+}
+
+.layer:hover{
+    transition:0.5s;
+    background-color: white;
+    color: black;
+
+}
+
+/* ---third part--- */
+
+.image-container3{
+    position: relative;
+}
+.image3{
+    width: 100%;
+}
+
+.thirdcaption{
+    position: absolute;
+    z-index: 5;
+    bottom: 155px;
+    left: 130px;
+    font-family: sans-serif;
+    font-size: 19px;
+    color: white;
+    line-height: 50px;
+
+}
+
+.thirdcaption button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 40%;
+    height: 50px;
+}
+
+/* ---fourth part--- */
+
+.image-container4{
+    position: relative;
+}
+
+.image4{
+    width: 100%;
+}
+
+.fourthcaption{
+    position: absolute;
+    z-index: 5;
+    bottom: 130px;
+    left: 110px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 50px;
+    
+}
+
+.fourthcaption button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    font-weight:800;
+    height: 55px;
+    width: 42%;
+   margin-top: 33px;
+}
+.fourthcaption h1{
+    width: 400px;
+
+}
+
+
+/* ---fifth part--- */
+
+.image-container5{
+    position: relative;
+
+}
+
+.image5{
+    width: 100%;
+}
+
+.fifthcaption{
+    position: absolute;
+    z-index: 5;
+    bottom: 130px;
+    left: 115px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 50px;
+    
+}
+
+.fifthcaption button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 40%;
+    height: 50px;
+    margin-top: 35px;
+}
+
+.fifthcaption h1{
+    width: 400px;
+}
+
+/* ---sixth part--- */
+
+.footercap{
+    background-color: black;
+    color:white;
+    padding: 32px;
+
+    
+}
+.footercap ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spacexlogo{
+    font-weight: 200;
+}
+.footercap ul li{
+    margin-left: 35px;
+}
